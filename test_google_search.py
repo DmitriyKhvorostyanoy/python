@@ -11,7 +11,7 @@ def test_google_search():
     inputUsername=driver.find_element_by_name("username")
     inputUsername.send_keys("negdan4ik")
     inputPass = driver.find_element_by_name("password")
-    inputPass.send_keys("246800")
+    inputPass.send_keys("123")
     loginBtn=driver.find_element_by_name("login")
     loginBtn.click()
    # assert driver.title=="ХТ - сообщество туристов и велосипедистов"
